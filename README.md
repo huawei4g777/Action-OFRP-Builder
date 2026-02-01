@@ -1,6 +1,6 @@
 # Build Recovery using Github Actions
 
-- Support OrangeFox, [TWRP](https://github.com/azwhikaru/Action-TWRP-Builder) is here
+- Support OrangeFox Only
 - [中文说明](./README_CN.md)
 
 ---
@@ -24,13 +24,13 @@
 | ------------ | -------------------- | ------------ |
 | `SYNC_URL` | Script specified by OrangeFox | https://gitlab.com/OrangeFox/sync.git |
 | `MANIFEST_BRANCH` | Source branch | 12.1                                                         |
-| `DEVICE_TREE_URL` | Device address | https://github.com/OrangeFoxRecovery/device_xiaomi_laurel_sprout |
+| `DEVICE_TREE_URL` | Device address | https://github.com/huawei4g777/android_device_samsung_kyleprods |
 | `DEVICE_TREE_BRANCH` | Device branch | fox_12.1 |
-| `DEVICE_PATH` | Device location | device/xiaomi/laurel_sprout |
+| `DEVICE_PATH` | Device location | device/samsung/kyleprods |
 | `COMMON_TREE_URL` | Common tree address |  |
 | `COMMON_PATH` | Common tree location |  |
-| `DEVICE_NAME` | Model name | laurel_sprout |
-| `MAKEFILE_NAME` | Makefile name | twrp_laurel_sprout |
+| `DEVICE_NAME` | Model name | kyleprods |
+| `MAKEFILE_NAME` | Makefile name | ofrp[your device name] |
 | `BUILD_TARGET` | Build Target Partition (boot/recovery/vendorboot) | recovery |
 
 -----
